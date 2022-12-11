@@ -32,12 +32,8 @@ namespace simulation.engine
 
         public override void Draw(IGraphics g)
         {
-            g.Rectangle(Brown, X-(Width/2), Y-(Height/2), Width, Height);
+            g.Rectangle(RGBA.Black, X-(Width/2), Y-(Height/2), Width, Height);
             base.Draw(g);
         }
-
-        #region private
-        private readonly RGBA Brown = new RGBA() { R = 131, G = 61, B = 61, A = 255 };
-        #endregion
     }
 }
