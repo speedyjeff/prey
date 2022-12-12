@@ -75,59 +75,62 @@ This configuration is useful for a baseline, it will help determine local minimu
 
 <details>
 <summary>data</summary>
-###### Predator (neural) v Prey (neural)
+<b>Predator (neural) v Prey (neural)</b>
 <table>
-<tr><td>Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime</td></tr>
-<tr><td>0</td><td>673</td><td>0</td><td>800</td><td>672</td><td>0</td><td>1</td><td>0</td><td>421</td><td>0</td></tr>
-<tr><td>1</td><td>698</td><td>0</td><td>800</td><td>696</td><td>1</td><td>0</td><td>0</td><td>606</td><td>0</td></tr>
-<tr><td>2</td><td>675</td><td>0</td><td>800</td><td>672</td><td>2</td><td>0</td><td>0</td><td>589</td><td>0</td></tr>
-<tr><td>3</td><td>689</td><td>0</td><td>800</td><td>688</td><td>3</td><td>0</td><td>0</td><td>616</td><td>0</td></tr>
-<tr><td>4</td><td>680</td><td>0</td><td>800</td><td>680</td><td>4</td><td>0</td><td>0</td><td>560</td><td>0</td></tr>
-<tr><td>5</td><td>710</td><td>0</td><td>800</td><td>708</td><td>5</td><td>0</td><td>0</td><td>618</td><td>0</td></tr>
-<tr><td>6</td><td>671</td><td>0</td><td>800</td><td>669</td><td>6</td><td>0</td><td>0</td><td>626</td><td>0</td></tr>
-<tr><td>7</td><td>712</td><td>0</td><td>800</td><td>710</td><td>7</td><td>0</td><td>0</td><td>609</td><td>0</td></tr>
-<tr><td>8</td><td>676</td><td>0</td><td>800</td><td>676</td><td>8</td><td>1</td><td>0</td><td>611</td><td>0</td></tr>
-<tr><td>9</td><td>703</td><td>0</td><td>800</td><td>702</td><td>9</td><td>0</td><td>0</td><td>606</td><td>0</td></tr>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>67<tr><td>3</td><td><tr><td>0</td><td>80<tr><td>0</td><td>67<tr><td>2</td><td><tr><td>0</td><td><tr><td>1</td><td><tr><td>0</td><td>42<tr><td>1</td><td>0</td></tr>
+<tr><td>1</td><td>69<tr><td>8</td><td><tr><td>0</td><td>80<tr><td>0</td><td>69<tr><td>6</td><td><tr><td>1</td><td><tr><td>0</td><td><tr><td>0</td><td>60<tr><td>6</td><td>0</td></tr>
+<tr><td>2</td><td>67<tr><td>5</td><td><tr><td>0</td><td>80<tr><td>0</td><td>67<tr><td>2</td><td><tr><td>2</td><td><tr><td>0</td><td><tr><td>0</td><td>58<tr><td>9</td><td>0</td></tr>
+<tr><td>3</td><td>68<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>68<tr><td>8</td><td><tr><td>3</td><td><tr><td>0</td><td><tr><td>0</td><td>61<tr><td>6</td><td>0</td></tr>
+<tr><td>4</td><td>68<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>68<tr><td>0</td><td><tr><td>4</td><td><tr><td>0</td><td><tr><td>0</td><td>56<tr><td>0</td><td>0</td></tr>
+<tr><td>5</td><td>71<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>70<tr><td>8</td><td><tr><td>5</td><td><tr><td>0</td><td><tr><td>0</td><td>61<tr><td>8</td><td>0</td></tr>
+<tr><td>6</td><td>67<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>66<tr><td>9</td><td><tr><td>6</td><td><tr><td>0</td><td><tr><td>0</td><td>62<tr><td>6</td><td>0</td></tr>
+<tr><td>7</td><td>71<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>71<tr><td>0</td><td><tr><td>7</td><td><tr><td>0</td><td><tr><td>0</td><td>60<tr><td>9</td><td>0</td></tr>
+<tr><td>8</td><td>67<tr><td>6</td><td><tr><td>0</td><td>80<tr><td>0</td><td>67<tr><td>6</td><td><tr><td>8</td><td><tr><td>1</td><td><tr><td>0</td><td>61<tr><td>1</td><td>0</td></tr>
+<tr><td>9</td><td>70<tr><td>3</td><td><tr><td>0</td><td>80<tr><td>0</td><td>70<tr><td>2</td><td><tr><td>9</td><td><tr><td>0</td><td><tr><td>0</td><td>60<tr><td>6</td><td>0</td></tr>
 </table>
-###### Predator (random) v Prey (neural)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>359</td><td>0</td><td>800</td><td>359</td><td>0</td><td>0</td><td>0</td><td>334</td><td>0
-1</td><td>362</td><td>0</td><td>800</td><td>360</td><td>1</td><td>0</td><td>0</td><td>338</td><td>0
-2</td><td>355</td><td>0</td><td>800</td><td>352</td><td>2</td><td>1</td><td>0</td><td>334</td><td>0
-3</td><td>365</td><td>0</td><td>800</td><td>364</td><td>3</td><td>1</td><td>0</td><td>335</td><td>0
-4</td><td>364</td><td>0</td><td>800</td><td>364</td><td>4</td><td>1</td><td>1</td><td>334</td><td>0
-5</td><td>354</td><td>0</td><td>800</td><td>353</td><td>5</td><td>0</td><td>0</td><td>331</td><td>0
-6</td><td>370</td><td>0</td><td>800</td><td>370</td><td>0</td><td>0</td><td>0</td><td>335</td><td>0
-7</td><td>355</td><td>0</td><td>800</td><td>355</td><td>1</td><td>1</td><td>0</td><td>332</td><td>0
-8</td><td>360</td><td>0</td><td>800</td><td>359</td><td>2</td><td>0</td><td>0</td><td>335</td><td>0
-9</td><td>365</td><td>0</td><td>800</td><td>363</td><td>3</td><td>0</td><td>0</td><td>335</td><td>0
-###### Predator (neural) v Prey (random)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>676</td><td>0</td><td>800</td><td>668</td><td>0</td><td>0</td><td>0</td><td>429</td><td>0
-1</td><td>674</td><td>0</td><td>800</td><td>674</td><td>1</td><td>0</td><td>0</td><td>614</td><td>0
-2</td><td>701</td><td>0</td><td>800</td><td>690</td><td>2</td><td>0</td><td>0</td><td>620</td><td>0
-3</td><td>699</td><td>0</td><td>800</td><td>692</td><td>3</td><td>0</td><td>0</td><td>613</td><td>0
-4</td><td>700</td><td>0</td><td>800</td><td>684</td><td>4</td><td>0</td><td>0</td><td>611</td><td>0
-5</td><td>700</td><td>0</td><td>800</td><td>694</td><td>5</td><td>0</td><td>0</td><td>609</td><td>0
-6</td><td>689</td><td>0</td><td>800</td><td>672</td><td>6</td><td>0</td><td>0</td><td>604</td><td>0
-7</td><td>687</td><td>0</td><td>800</td><td>686</td><td>7</td><td>0</td><td>0</td><td>601</td><td>0
-8</td><td>691</td><td>0</td><td>800</td><td>688</td><td>8</td><td>0</td><td>0</td><td>588</td><td>0
-9</td><td>706</td><td>0</td><td>800</td><td>696</td><td>9</td><td>1</td><td>0</td><td>604</td><td>0
-###### Predator (random) v Prey (random)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>359</td><td>0</td><td>801</td><td>352</td><td>0</td><td>0</td><td>0</td><td>330</td><td>0
-1</td><td>387</td><td>0</td><td>800</td><td>372</td><td>1</td><td>1</td><td>0</td><td>334</td><td>0
-2</td><td>367</td><td>0</td><td>800</td><td>359</td><td>2</td><td>0</td><td>0</td><td>335</td><td>0
-3</td><td>361</td><td>0</td><td>800</td><td>352</td><td>3</td><td>0</td><td>0</td><td>334</td><td>0
-4</td><td>368</td><td>0</td><td>800</td><td>354</td><td>4</td><td>0</td><td>0</td><td>336</td><td>0
-5</td><td>371</td><td>0</td><td>800</td><td>363</td><td>5</td><td>1</td><td>0</td><td>333</td><td>0
-6</td><td>363</td><td>0</td><td>800</td><td>357</td><td>6</td><td>0</td><td>0</td><td>333</td><td>0
-7</td><td>381</td><td>0</td><td>800</td><td>372</td><td>0</td><td>0</td><td>0</td><td>335</td><td>0
-8</td><td>353</td><td>0</td><td>800</td><td>351</td><td>1</td><td>0</td><td>0</td><td>332</td><td>0
-9</td><td>369</td><td>0</td><td>800</td><td>356</td><td>2</td><td>0</td><td>0</td><td>335</td><td>0
+<b>Predator (random) v Prey (neural)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>35<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>9</td><td><tr><td>0</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>4</td><td>0</td></tr>
+<tr><td>1</td><td>36<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>36<tr><td>0</td><td><tr><td>1</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>8</td><td>0</td></tr>
+<tr><td>2</td><td>35<tr><td>5</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>2</td><td><tr><td>2</td><td><tr><td>1</td><td><tr><td>0</td><td>33<tr><td>4</td><td>0</td></tr>
+<tr><td>3</td><td>36<tr><td>5</td><td><tr><td>0</td><td>80<tr><td>0</td><td>36<tr><td>4</td><td><tr><td>3</td><td><tr><td>1</td><td><tr><td>0</td><td>33<tr><td>5</td><td>0</td></tr>
+<tr><td>4</td><td>36<tr><td>4</td><td><tr><td>0</td><td>80<tr><td>0</td><td>36<tr><td>4</td><td><tr><td>4</td><td><tr><td>1</td><td><tr><td>1</td><td>33<tr><td>4</td><td>0</td></tr>
+<tr><td>5</td><td>35<tr><td>4</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>3</td><td><tr><td>5</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>1</td><td>0</td></tr>
+<tr><td>6</td><td>37<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>37<tr><td>0</td><td><tr><td>0</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>5</td><td>0</td></tr>
+<tr><td>7</td><td>35<tr><td>5</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>5</td><td><tr><td>1</td><td><tr><td>1</td><td><tr><td>0</td><td>33<tr><td>2</td><td>0</td></tr>
+<tr><td>8</td><td>36<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>9</td><td><tr><td>2</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>5</td><td>0</td></tr>
+<tr><td>9</td><td>36<tr><td>5</td><td><tr><td>0</td><td>80<tr><td>0</td><td>36<tr><td>3</td><td><tr><td>3</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>5</td><td>0</td></tr>
+</table>
+<b>Predator (neural) v Prey (random)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>67<tr><td>6</td><td><tr><td>0</td><td>80<tr><td>0</td><td>66<tr><td>8</td><td><tr><td>0</td><td><tr><td>0</td><td><tr><td>0</td><td>42<tr><td>9</td><td>0</td></tr>
+<tr><td>1</td><td>67<tr><td>4</td><td><tr><td>0</td><td>80<tr><td>0</td><td>67<tr><td>4</td><td><tr><td>1</td><td><tr><td>0</td><td><tr><td>0</td><td>61<tr><td>4</td><td>0</td></tr>
+<tr><td>2</td><td>70<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>69<tr><td>0</td><td><tr><td>2</td><td><tr><td>0</td><td><tr><td>0</td><td>62<tr><td>0</td><td>0</td></tr>
+<tr><td>3</td><td>69<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>69<tr><td>2</td><td><tr><td>3</td><td><tr><td>0</td><td><tr><td>0</td><td>61<tr><td>3</td><td>0</td></tr>
+<tr><td>4</td><td>70<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>68<tr><td>4</td><td><tr><td>4</td><td><tr><td>0</td><td><tr><td>0</td><td>61<tr><td>1</td><td>0</td></tr>
+<tr><td>5</td><td>70<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>69<tr><td>4</td><td><tr><td>5</td><td><tr><td>0</td><td><tr><td>0</td><td>60<tr><td>9</td><td>0</td></tr>
+<tr><td>6</td><td>68<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>67<tr><td>2</td><td><tr><td>6</td><td><tr><td>0</td><td><tr><td>0</td><td>60<tr><td>4</td><td>0</td></tr>
+<tr><td>7</td><td>68<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>0</td><td>68<tr><td>6</td><td><tr><td>7</td><td><tr><td>0</td><td><tr><td>0</td><td>60<tr><td>1</td><td>0</td></tr>
+<tr><td>8</td><td>69<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>68<tr><td>8</td><td><tr><td>8</td><td><tr><td>0</td><td><tr><td>0</td><td>58<tr><td>8</td><td>0</td></tr>
+<tr><td>9</td><td>70<tr><td>6</td><td><tr><td>0</td><td>80<tr><td>0</td><td>69<tr><td>6</td><td><tr><td>9</td><td><tr><td>1</td><td><tr><td>0</td><td>60<tr><td>4</td><td>0</td></tr>
+</table>
+<b>Predator (random) v Prey (random)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>35<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>1</td><td>35<tr><td>2</td><td><tr><td>0</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>0</td><td>0</td></tr>
+<tr><td>1</td><td>38<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>0</td><td>37<tr><td>2</td><td><tr><td>1</td><td><tr><td>1</td><td><tr><td>0</td><td>33<tr><td>4</td><td>0</td></tr>
+<tr><td>2</td><td>36<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>9</td><td><tr><td>2</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>5</td><td>0</td></tr>
+<tr><td>3</td><td>36<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>2</td><td><tr><td>3</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>4</td><td>0</td></tr>
+<tr><td>4</td><td>36<tr><td>8</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>4</td><td><tr><td>4</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>6</td><td>0</td></tr>
+<tr><td>5</td><td>37<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>36<tr><td>3</td><td><tr><td>5</td><td><tr><td>1</td><td><tr><td>0</td><td>33<tr><td>3</td><td>0</td></tr>
+<tr><td>6</td><td>36<tr><td>3</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>7</td><td><tr><td>6</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>3</td><td>0</td></tr>
+<tr><td>7</td><td>38<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>37<tr><td>2</td><td><tr><td>0</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>5</td><td>0</td></tr>
+<tr><td>8</td><td>35<tr><td>3</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>1</td><td><tr><td>1</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>2</td><td>0</td></tr>
+<tr><td>9</td><td>36<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>6</td><td><tr><td>2</td><td><tr><td>0</td><td><tr><td>0</td><td>33<tr><td>5</td><td>0</td></tr>
+</table>
 </details>
 
 ##### Predator (aggressive) v Prey (peaceful)
@@ -135,58 +138,62 @@ This is the default configuration, the predators hunt the prey. The predator lif
 
 <details>
 <summary>data</summary>
-###### Predator (neural) v Prey (neural)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>5000</td><td>170</td><td>800</td><td>2490</td><td>5</td><td>3288</td><td>2</td><td>396</td><td>238
-1</td><td>5000</td><td>170</td><td>800</td><td>1912</td><td>11</td><td>4495</td><td>3</td><td>651</td><td>560
-2</td><td>4086</td><td>0</td><td>800</td><td>1674</td><td>12</td><td>3363</td><td>5</td><td>841</td><td>610
-3</td><td>4221</td><td>0</td><td>800</td><td>1689</td><td>14</td><td>3335</td><td>7</td><td>855</td><td>519
-4</td><td>4597</td><td>0</td><td>800</td><td>1681</td><td>17</td><td>3956</td><td>8</td><td>842</td><td>826
-5</td><td>5000</td><td>170</td><td>799</td><td>1788</td><td>18</td><td>3899</td><td>9</td><td>469</td><td>302
-6</td><td>5000</td><td>166</td><td>800</td><td>2004</td><td>25</td><td>4306</td><td>11</td><td>486</td><td>383
-7</td><td>3905</td><td>0</td><td>800</td><td>1414</td><td>26</td><td>3705</td><td>13</td><td>774</td><td>431
-8</td><td>4235</td><td>0</td><td>800</td><td>1614</td><td>27</td><td>3211</td><td>14</td><td>860</td><td>585
-9</td><td>5000</td><td>166</td><td>801</td><td>1551</td><td>8</td><td>4068</td><td>15</td><td>535</td><td>339
-###### Predator (random) v Prey (neural)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>5000</td><td>170</td><td>797</td><td>2020</td><td>5</td><td>2542</td><td>9</td><td>545</td><td>251
-1</td><td>5001</td><td>157</td><td>800</td><td>2302</td><td>10</td><td>2648</td><td>12</td><td>518</td><td>243
-2</td><td>5001</td><td>169</td><td>790</td><td>2038</td><td>14</td><td>3212</td><td>6</td><td>512</td><td>247
-3</td><td>5000</td><td>166</td><td>799</td><td>2305</td><td>23</td><td>3939</td><td>9</td><td>511</td><td>270
-4</td><td>5000</td><td>169</td><td>800</td><td>2013</td><td>32</td><td>3409</td><td>11</td><td>512</td><td>259
-5</td><td>5000</td><td>170</td><td>794</td><td>1608</td><td>39</td><td>3469</td><td>19</td><td>516</td><td>269
-6</td><td>5000</td><td>170</td><td>797</td><td>1638</td><td>47</td><td>3365</td><td>23</td><td>494</td><td>283
-7</td><td>5000</td><td>169</td><td>800</td><td>1904</td><td>54</td><td>3145</td><td>25</td><td>545</td><td>260
-8</td><td>5001</td><td>168</td><td>799</td><td>1786</td><td>64</td><td>2932</td><td>26</td><td>492</td><td>285
-9</td><td>5000</td><td>169</td><td>799</td><td>1762</td><td>72</td><td>3610</td><td>27</td><td>499</td><td>273
-###### Predator (neural) v Prey (random)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>5002</td><td>169</td><td>800</td><td>2278</td><td>1</td><td>4386</td><td>1</td><td>675</td><td>414
-1</td><td>5000</td><td>170</td><td>800</td><td>1688</td><td>4</td><td>3116</td><td>7</td><td>630</td><td>321
-2</td><td>5000</td><td>170</td><td>800</td><td>2314</td><td>8</td><td>3541</td><td>11</td><td>726</td><td>353
-3</td><td>5003</td><td>170</td><td>800</td><td>2645</td><td>9</td><td>4481</td><td>1</td><td>943</td><td>542
-4</td><td>5004</td><td>170</td><td>801</td><td>2337</td><td>13</td><td>4445</td><td>0</td><td>769</td><td>436
-5</td><td>5001</td><td>169</td><td>799</td><td>2788</td><td>18</td><td>4267</td><td>4</td><td>919</td><td>519
-6</td><td>5002</td><td>170</td><td>800</td><td>3136</td><td>19</td><td>4011</td><td>6</td><td>904</td><td>528
-7</td><td>5005</td><td>167</td><td>800</td><td>3101</td><td>21</td><td>4517</td><td>10</td><td>922</td><td>522
-8</td><td>5008</td><td>168</td><td>800</td><td>2834</td><td>23</td><td>4394</td><td>15</td><td>958</td><td>526
-9</td><td>5002</td><td>168</td><td>799</td><td>2625</td><td>26</td><td>4093</td><td>18</td><td>740</td><td>336
-###### Predator (random) v Prey (random)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>5007</td><td>169</td><td>800</td><td>2371</td><td>3</td><td>2679</td><td>6</td><td>546</td><td>270
-1</td><td>5005</td><td>170</td><td>797</td><td>2218</td><td>10</td><td>3076</td><td>9</td><td>534</td><td>273
-2</td><td>5001</td><td>169</td><td>800</td><td>2279</td><td>11</td><td>3016</td><td>5</td><td>545</td><td>269
-3</td><td>5001</td><td>170</td><td>800</td><td>2168</td><td>18</td><td>2712</td><td>7</td><td>562</td><td>263
-4</td><td>5002</td><td>169</td><td>797</td><td>1927</td><td>23</td><td>3127</td><td>13</td><td>577</td><td>259
-5</td><td>5000</td><td>170</td><td>800</td><td>1765</td><td>26</td><td>3090</td><td>20</td><td>557</td><td>272
-6</td><td>5004</td><td>170</td><td>801</td><td>1996</td><td>27</td><td>2644</td><td>24</td><td>579</td><td>265
-7</td><td>5002</td><td>169</td><td>797</td><td>2214</td><td>28</td><td>2904</td><td>0</td><td>549</td><td>274
-8</td><td>5006</td><td>167</td><td>798</td><td>2096</td><td>31</td><td>2574</td><td>5</td><td>566</td><td>264
-9</td><td>5000</td><td>170</td><td>799</td><td>2074</td><td>7</td><td>3229</td><td>8</td><td>583</td><td>256
+<b>Predator (neural) v Prey (neural)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>500<tr><td>0</td><td>17<tr><td>0</td><td>80<tr><td>0</td><td>249<tr><td>0</td><td><tr><td>5</td><td>328<tr><td>8</td><td><tr><td>2</td><td>39<tr><td>6</td><td>238</td></tr>
+<tr><td>1</td><td>500<tr><td>0</td><td>17<tr><td>0</td><td>80<tr><td>0</td><td>191<tr><td>2</td><td>1<tr><td>1</td><td>449<tr><td>5</td><td><tr><td>3</td><td>65<tr><td>1</td><td>560</td></tr>
+<tr><td>2</td><td>408<tr><td>6</td><td><tr><td>0</td><td>80<tr><td>0</td><td>167<tr><td>4</td><td>1<tr><td>2</td><td>336<tr><td>3</td><td><tr><td>5</td><td>84<tr><td>1</td><td>610</td></tr>
+<tr><td>3</td><td>422<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>168<tr><td>9</td><td>1<tr><td>4</td><td>333<tr><td>5</td><td><tr><td>7</td><td>85<tr><td>5</td><td>519</td></tr>
+<tr><td>4</td><td>459<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>0</td><td>168<tr><td>1</td><td>1<tr><td>7</td><td>395<tr><td>6</td><td><tr><td>8</td><td>84<tr><td>2</td><td>826</td></tr>
+<tr><td>5</td><td>500<tr><td>0</td><td>17<tr><td>0</td><td>79<tr><td>9</td><td>178<tr><td>8</td><td>1<tr><td>8</td><td>389<tr><td>9</td><td><tr><td>9</td><td>46<tr><td>9</td><td>302</td></tr>
+<tr><td>6</td><td>500<tr><td>0</td><td>16<tr><td>6</td><td>80<tr><td>0</td><td>200<tr><td>4</td><td>2<tr><td>5</td><td>430<tr><td>6</td><td>1<tr><td>1</td><td>48<tr><td>6</td><td>383</td></tr>
+<tr><td>7</td><td>390<tr><td>5</td><td><tr><td>0</td><td>80<tr><td>0</td><td>141<tr><td>4</td><td>2<tr><td>6</td><td>370<tr><td>5</td><td>1<tr><td>3</td><td>77<tr><td>4</td><td>431</td></tr>
+<tr><td>8</td><td>423<tr><td>5</td><td><tr><td>0</td><td>80<tr><td>0</td><td>161<tr><td>4</td><td>2<tr><td>7</td><td>321<tr><td>1</td><td>1<tr><td>4</td><td>86<tr><td>0</td><td>585</td></tr>
+<tr><td>9</td><td>500<tr><td>0</td><td>16<tr><td>6</td><td>80<tr><td>1</td><td>155<tr><td>1</td><td><tr><td>8</td><td>406<tr><td>8</td><td>1<tr><td>5</td><td>53<tr><td>5</td><td>339</td></tr>
+</table>
+<b>Predator (random) v Prey (neural)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>500<tr><td>0</td><td>17<tr><td>0</td><td>79<tr><td>7</td><td>202<tr><td>0</td><td><tr><td>5</td><td>254<tr><td>2</td><td><tr><td>9</td><td>54<tr><td>5</td><td>251</td></tr>
+<tr><td>1</td><td>500<tr><td>1</td><td>15<tr><td>7</td><td>80<tr><td>0</td><td>230<tr><td>2</td><td>1<tr><td>0</td><td>264<tr><td>8</td><td>1<tr><td>2</td><td>51<tr><td>8</td><td>243</td></tr>
+<tr><td>2</td><td>500<tr><td>1</td><td>16<tr><td>9</td><td>79<tr><td>0</td><td>203<tr><td>8</td><td>1<tr><td>4</td><td>321<tr><td>2</td><td><tr><td>6</td><td>51<tr><td>2</td><td>247</td></tr>
+<tr><td>3</td><td>500<tr><td>0</td><td>16<tr><td>6</td><td>79<tr><td>9</td><td>230<tr><td>5</td><td>2<tr><td>3</td><td>393<tr><td>9</td><td><tr><td>9</td><td>51<tr><td>1</td><td>270</td></tr>
+<tr><td>4</td><td>500<tr><td>0</td><td>16<tr><td>9</td><td>80<tr><td>0</td><td>201<tr><td>3</td><td>3<tr><td>2</td><td>340<tr><td>9</td><td>1<tr><td>1</td><td>51<tr><td>2</td><td>259</td></tr>
+<tr><td>5</td><td>500<tr><td>0</td><td>17<tr><td>0</td><td>79<tr><td>4</td><td>160<tr><td>8</td><td>3<tr><td>9</td><td>346<tr><td>9</td><td>1<tr><td>9</td><td>51<tr><td>6</td><td>269</td></tr>
+<tr><td>6</td><td>500<tr><td>0</td><td>17<tr><td>0</td><td>79<tr><td>7</td><td>163<tr><td>8</td><td>4<tr><td>7</td><td>336<tr><td>5</td><td>2<tr><td>3</td><td>49<tr><td>4</td><td>283</td></tr>
+<tr><td>7</td><td>500<tr><td>0</td><td>16<tr><td>9</td><td>80<tr><td>0</td><td>190<tr><td>4</td><td>5<tr><td>4</td><td>314<tr><td>5</td><td>2<tr><td>5</td><td>54<tr><td>5</td><td>260</td></tr>
+<tr><td>8</td><td>500<tr><td>1</td><td>16<tr><td>8</td><td>79<tr><td>9</td><td>178<tr><td>6</td><td>6<tr><td>4</td><td>293<tr><td>2</td><td>2<tr><td>6</td><td>49<tr><td>2</td><td>285</td></tr>
+<tr><td>9</td><td>500<tr><td>0</td><td>16<tr><td>9</td><td>79<tr><td>9</td><td>176<tr><td>2</td><td>7<tr><td>2</td><td>361<tr><td>0</td><td>2<tr><td>7</td><td>49<tr><td>9</td><td>273</td></tr>
+</table>
+<b>Predator (neural) v Prey (random)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>500<tr><td>2</td><td>16<tr><td>9</td><td>80<tr><td>0</td><td>227<tr><td>8</td><td><tr><td>1</td><td>438<tr><td>6</td><td><tr><td>1</td><td>67<tr><td>5</td><td>414</td></tr>
+<tr><td>1</td><td>500<tr><td>0</td><td>17<tr><td>0</td><td>80<tr><td>0</td><td>168<tr><td>8</td><td><tr><td>4</td><td>311<tr><td>6</td><td><tr><td>7</td><td>63<tr><td>0</td><td>321</td></tr>
+<tr><td>2</td><td>500<tr><td>0</td><td>17<tr><td>0</td><td>80<tr><td>0</td><td>231<tr><td>4</td><td><tr><td>8</td><td>354<tr><td>1</td><td>1<tr><td>1</td><td>72<tr><td>6</td><td>353</td></tr>
+<tr><td>3</td><td>500<tr><td>3</td><td>17<tr><td>0</td><td>80<tr><td>0</td><td>264<tr><td>5</td><td><tr><td>9</td><td>448<tr><td>1</td><td><tr><td>1</td><td>94<tr><td>3</td><td>542</td></tr>
+<tr><td>4</td><td>500<tr><td>4</td><td>17<tr><td>0</td><td>80<tr><td>1</td><td>233<tr><td>7</td><td>1<tr><td>3</td><td>444<tr><td>5</td><td><tr><td>0</td><td>76<tr><td>9</td><td>436</td></tr>
+<tr><td>5</td><td>500<tr><td>1</td><td>16<tr><td>9</td><td>79<tr><td>9</td><td>278<tr><td>8</td><td>1<tr><td>8</td><td>426<tr><td>7</td><td><tr><td>4</td><td>91<tr><td>9</td><td>519</td></tr>
+<tr><td>6</td><td>500<tr><td>2</td><td>17<tr><td>0</td><td>80<tr><td>0</td><td>313<tr><td>6</td><td>1<tr><td>9</td><td>401<tr><td>1</td><td><tr><td>6</td><td>90<tr><td>4</td><td>528</td></tr>
+<tr><td>7</td><td>500<tr><td>5</td><td>16<tr><td>7</td><td>80<tr><td>0</td><td>310<tr><td>1</td><td>2<tr><td>1</td><td>451<tr><td>7</td><td>1<tr><td>0</td><td>92<tr><td>2</td><td>522</td></tr>
+<tr><td>8</td><td>500<tr><td>8</td><td>16<tr><td>8</td><td>80<tr><td>0</td><td>283<tr><td>4</td><td>2<tr><td>3</td><td>439<tr><td>4</td><td>1<tr><td>5</td><td>95<tr><td>8</td><td>526</td></tr>
+<tr><td>9</td><td>500<tr><td>2</td><td>16<tr><td>8</td><td>79<tr><td>9</td><td>262<tr><td>5</td><td>2<tr><td>6</td><td>409<tr><td>3</td><td>1<tr><td>8</td><td>74<tr><td>0</td><td>336</td></tr>
+</table>
+<b>Predator (random) v Prey (random)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>500<tr><td>7</td><td>16<tr><td>9</td><td>80<tr><td>0</td><td>237<tr><td>1</td><td><tr><td>3</td><td>267<tr><td>9</td><td><tr><td>6</td><td>54<tr><td>6</td><td>270</td></tr>
+<tr><td>1</td><td>500<tr><td>5</td><td>17<tr><td>0</td><td>79<tr><td>7</td><td>221<tr><td>8</td><td>1<tr><td>0</td><td>307<tr><td>6</td><td><tr><td>9</td><td>53<tr><td>4</td><td>273</td></tr>
+<tr><td>2</td><td>500<tr><td>1</td><td>16<tr><td>9</td><td>80<tr><td>0</td><td>227<tr><td>9</td><td>1<tr><td>1</td><td>301<tr><td>6</td><td><tr><td>5</td><td>54<tr><td>5</td><td>269</td></tr>
+<tr><td>3</td><td>500<tr><td>1</td><td>17<tr><td>0</td><td>80<tr><td>0</td><td>216<tr><td>8</td><td>1<tr><td>8</td><td>271<tr><td>2</td><td><tr><td>7</td><td>56<tr><td>2</td><td>263</td></tr>
+<tr><td>4</td><td>500<tr><td>2</td><td>16<tr><td>9</td><td>79<tr><td>7</td><td>192<tr><td>7</td><td>2<tr><td>3</td><td>312<tr><td>7</td><td>1<tr><td>3</td><td>57<tr><td>7</td><td>259</td></tr>
+<tr><td>5</td><td>500<tr><td>0</td><td>17<tr><td>0</td><td>80<tr><td>0</td><td>176<tr><td>5</td><td>2<tr><td>6</td><td>309<tr><td>0</td><td>2<tr><td>0</td><td>55<tr><td>7</td><td>272</td></tr>
+<tr><td>6</td><td>500<tr><td>4</td><td>17<tr><td>0</td><td>80<tr><td>1</td><td>199<tr><td>6</td><td>2<tr><td>7</td><td>264<tr><td>4</td><td>2<tr><td>4</td><td>57<tr><td>9</td><td>265</td></tr>
+<tr><td>7</td><td>500<tr><td>2</td><td>16<tr><td>9</td><td>79<tr><td>7</td><td>221<tr><td>4</td><td>2<tr><td>8</td><td>290<tr><td>4</td><td><tr><td>0</td><td>54<tr><td>9</td><td>274</td></tr>
+<tr><td>8</td><td>500<tr><td>6</td><td>16<tr><td>7</td><td>79<tr><td>8</td><td>209<tr><td>6</td><td>3<tr><td>1</td><td>257<tr><td>4</td><td><tr><td>5</td><td>56<tr><td>6</td><td>264</td></tr>
+<tr><td>9</td><td>500<tr><td>0</td><td>17<tr><td>0</td><td>79<tr><td>9</td><td>207<tr><td>4</td><td><tr><td>7</td><td>322<tr><td>9</td><td><tr><td>8</td><td>58<tr><td>3</td><td>256</td></tr>
+</table>
 </details>
 
 ##### Predator (peaceful) v Prey (aggressive)
@@ -194,58 +201,62 @@ This configuration has a double negative for predators, they are not able to rep
 
 <details>
 <summary>data</summary>
-###### Predator (neural) v Prey (neural)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>486</td><td>0</td><td>800</td><td>486</td><td>0</td><td>1</td><td>0</td><td>211</td><td>0
-1</td><td>461</td><td>0</td><td>800</td><td>461</td><td>1</td><td>0</td><td>0</td><td>138</td><td>0
-2</td><td>649</td><td>0</td><td>800</td><td>648</td><td>2</td><td>0</td><td>0</td><td>209</td><td>0
-3</td><td>676</td><td>0</td><td>800</td><td>676</td><td>3</td><td>0</td><td>0</td><td>235</td><td>0
-4</td><td>512</td><td>0</td><td>800</td><td>512</td><td>4</td><td>1</td><td>0</td><td>192</td><td>0
-5</td><td>698</td><td>0</td><td>800</td><td>698</td><td>5</td><td>0</td><td>0</td><td>317</td><td>0
-6</td><td>642</td><td>0</td><td>800</td><td>642</td><td>6</td><td>0</td><td>0</td><td>199</td><td>0
-7</td><td>652</td><td>0</td><td>800</td><td>652</td><td>7</td><td>0</td><td>0</td><td>182</td><td>0
-8</td><td>439</td><td>0</td><td>800</td><td>438</td><td>8</td><td>0</td><td>0</td><td>146</td><td>0
-9</td><td>666</td><td>0</td><td>800</td><td>666</td><td>9</td><td>0</td><td>0</td><td>193</td><td>0
-###### Predator (random) v Prey (neural)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>347</td><td>0</td><td>800</td><td>346</td><td>0</td><td>0</td><td>0</td><td>171</td><td>0
-1</td><td>351</td><td>0</td><td>800</td><td>350</td><td>1</td><td>1</td><td>0</td><td>184</td><td>0
-2</td><td>358</td><td>0</td><td>800</td><td>358</td><td>2</td><td>0</td><td>0</td><td>231</td><td>0
-3</td><td>342</td><td>0</td><td>801</td><td>342</td><td>3</td><td>0</td><td>0</td><td>182</td><td>0
-4</td><td>362</td><td>0</td><td>800</td><td>361</td><td>4</td><td>0</td><td>0</td><td>186</td><td>0
-5</td><td>347</td><td>0</td><td>800</td><td>347</td><td>5</td><td>0</td><td>0</td><td>180</td><td>0
-6</td><td>347</td><td>0</td><td>800</td><td>346</td><td>6</td><td>0</td><td>0</td><td>177</td><td>0
-7</td><td>342</td><td>0</td><td>800</td><td>342</td><td>7</td><td>0</td><td>0</td><td>155</td><td>0
-8</td><td>340</td><td>0</td><td>800</td><td>340</td><td>8</td><td>0</td><td>0</td><td>189</td><td>0
-9</td><td>336</td><td>0</td><td>800</td><td>335</td><td>9</td><td>0</td><td>0</td><td>166</td><td>0
-###### Predator (neural) v Prey (random)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>380</td><td>0</td><td>800</td><td>376</td><td>0</td><td>0</td><td>0</td><td>161</td><td>0
-1</td><td>310</td><td>0</td><td>801</td><td>308</td><td>1</td><td>1</td><td>2</td><td>143</td><td>0
-2</td><td>612</td><td>0</td><td>800</td><td>604</td><td>2</td><td>0</td><td>0</td><td>177</td><td>0
-3</td><td>413</td><td>0</td><td>800</td><td>406</td><td>3</td><td>1</td><td>2</td><td>144</td><td>0
-4</td><td>521</td><td>0</td><td>800</td><td>519</td><td>4</td><td>1</td><td>3</td><td>174</td><td>0
-5</td><td>395</td><td>0</td><td>800</td><td>394</td><td>5</td><td>0</td><td>0</td><td>170</td><td>0
-6</td><td>692</td><td>0</td><td>800</td><td>691</td><td>6</td><td>2</td><td>2</td><td>172</td><td>0
-7</td><td>607</td><td>0</td><td>800</td><td>602</td><td>0</td><td>1</td><td>3</td><td>165</td><td>0
-8</td><td>523</td><td>0</td><td>800</td><td>514</td><td>1</td><td>0</td><td>0</td><td>182</td><td>0
-9</td><td>540</td><td>0</td><td>800</td><td>539</td><td>2</td><td>0</td><td>0</td><td>151</td><td>0
-###### Predator (random) v Prey (random)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>341</td><td>0</td><td>800</td><td>337</td><td>0</td><td>1</td><td>2</td><td>150</td><td>0
-1</td><td>349</td><td>0</td><td>800</td><td>344</td><td>1</td><td>0</td><td>0</td><td>183</td><td>0
-2</td><td>353</td><td>0</td><td>800</td><td>348</td><td>2</td><td>0</td><td>0</td><td>181</td><td>0
-3</td><td>327</td><td>0</td><td>800</td><td>322</td><td>3</td><td>0</td><td>0</td><td>172</td><td>0
-4</td><td>352</td><td>0</td><td>800</td><td>345</td><td>4</td><td>0</td><td>0</td><td>162</td><td>0
-5</td><td>322</td><td>0</td><td>800</td><td>320</td><td>5</td><td>0</td><td>0</td><td>144</td><td>0
-6</td><td>349</td><td>0</td><td>800</td><td>339</td><td>6</td><td>1</td><td>0</td><td>176</td><td>0
-7</td><td>354</td><td>0</td><td>800</td><td>349</td><td>7</td><td>0</td><td>0</td><td>185</td><td>0
-8</td><td>336</td><td>0</td><td>800</td><td>331</td><td>8</td><td>0</td><td>0</td><td>165</td><td>0
-9</td><td>335</td><td>0</td><td>800</td><td>331</td><td>9</td><td>0</td><td>0</td><td>177</td><td>0
+<b>Predator (neural) v Prey (neural)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>48<tr><td>6</td><td><tr><td>0</td><td>80<tr><td>0</td><td>48<tr><td>6</td><td><tr><td>0</td><td><tr><td>1</td><td><tr><td>0</td><td>21<tr><td>1</td><td>0</td></tr>
+<tr><td>1</td><td>46<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>46<tr><td>1</td><td><tr><td>1</td><td><tr><td>0</td><td><tr><td>0</td><td>13<tr><td>8</td><td>0</td></tr>
+<tr><td>2</td><td>64<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>64<tr><td>8</td><td><tr><td>2</td><td><tr><td>0</td><td><tr><td>0</td><td>20<tr><td>9</td><td>0</td></tr>
+<tr><td>3</td><td>67<tr><td>6</td><td><tr><td>0</td><td>80<tr><td>0</td><td>67<tr><td>6</td><td><tr><td>3</td><td><tr><td>0</td><td><tr><td>0</td><td>23<tr><td>5</td><td>0</td></tr>
+<tr><td>4</td><td>51<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>51<tr><td>2</td><td><tr><td>4</td><td><tr><td>1</td><td><tr><td>0</td><td>19<tr><td>2</td><td>0</td></tr>
+<tr><td>5</td><td>69<tr><td>8</td><td><tr><td>0</td><td>80<tr><td>0</td><td>69<tr><td>8</td><td><tr><td>5</td><td><tr><td>0</td><td><tr><td>0</td><td>31<tr><td>7</td><td>0</td></tr>
+<tr><td>6</td><td>64<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>64<tr><td>2</td><td><tr><td>6</td><td><tr><td>0</td><td><tr><td>0</td><td>19<tr><td>9</td><td>0</td></tr>
+<tr><td>7</td><td>65<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>65<tr><td>2</td><td><tr><td>7</td><td><tr><td>0</td><td><tr><td>0</td><td>18<tr><td>2</td><td>0</td></tr>
+<tr><td>8</td><td>43<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>43<tr><td>8</td><td><tr><td>8</td><td><tr><td>0</td><td><tr><td>0</td><td>14<tr><td>6</td><td>0</td></tr>
+<tr><td>9</td><td>66<tr><td>6</td><td><tr><td>0</td><td>80<tr><td>0</td><td>66<tr><td>6</td><td><tr><td>9</td><td><tr><td>0</td><td><tr><td>0</td><td>19<tr><td>3</td><td>0</td></tr>
+</table>
+<b>Predator (random) v Prey (neural)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>34<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>0</td><td>34<tr><td>6</td><td><tr><td>0</td><td><tr><td>0</td><td><tr><td>0</td><td>17<tr><td>1</td><td>0</td></tr>
+<tr><td>1</td><td>35<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>0</td><td><tr><td>1</td><td><tr><td>1</td><td><tr><td>0</td><td>18<tr><td>4</td><td>0</td></tr>
+<tr><td>2</td><td>35<tr><td>8</td><td><tr><td>0</td><td>80<tr><td>0</td><td>35<tr><td>8</td><td><tr><td>2</td><td><tr><td>0</td><td><tr><td>0</td><td>23<tr><td>1</td><td>0</td></tr>
+<tr><td>3</td><td>34<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>1</td><td>34<tr><td>2</td><td><tr><td>3</td><td><tr><td>0</td><td><tr><td>0</td><td>18<tr><td>2</td><td>0</td></tr>
+<tr><td>4</td><td>36<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>36<tr><td>1</td><td><tr><td>4</td><td><tr><td>0</td><td><tr><td>0</td><td>18<tr><td>6</td><td>0</td></tr>
+<tr><td>5</td><td>34<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>0</td><td>34<tr><td>7</td><td><tr><td>5</td><td><tr><td>0</td><td><tr><td>0</td><td>18<tr><td>0</td><td>0</td></tr>
+<tr><td>6</td><td>34<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>0</td><td>34<tr><td>6</td><td><tr><td>6</td><td><tr><td>0</td><td><tr><td>0</td><td>17<tr><td>7</td><td>0</td></tr>
+<tr><td>7</td><td>34<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>34<tr><td>2</td><td><tr><td>7</td><td><tr><td>0</td><td><tr><td>0</td><td>15<tr><td>5</td><td>0</td></tr>
+<tr><td>8</td><td>34<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>34<tr><td>0</td><td><tr><td>8</td><td><tr><td>0</td><td><tr><td>0</td><td>18<tr><td>9</td><td>0</td></tr>
+<tr><td>9</td><td>33<tr><td>6</td><td><tr><td>0</td><td>80<tr><td>0</td><td>33<tr><td>5</td><td><tr><td>9</td><td><tr><td>0</td><td><tr><td>0</td><td>16<tr><td>6</td><td>0</td></tr>
+</table>
+<b>Predator (neural) v Prey (random)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>38<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>37<tr><td>6</td><td><tr><td>0</td><td><tr><td>0</td><td><tr><td>0</td><td>16<tr><td>1</td><td>0</td></tr>
+<tr><td>1</td><td>31<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>1</td><td>30<tr><td>8</td><td><tr><td>1</td><td><tr><td>1</td><td><tr><td>2</td><td>14<tr><td>3</td><td>0</td></tr>
+<tr><td>2</td><td>61<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>60<tr><td>4</td><td><tr><td>2</td><td><tr><td>0</td><td><tr><td>0</td><td>17<tr><td>7</td><td>0</td></tr>
+<tr><td>3</td><td>41<tr><td>3</td><td><tr><td>0</td><td>80<tr><td>0</td><td>40<tr><td>6</td><td><tr><td>3</td><td><tr><td>1</td><td><tr><td>2</td><td>14<tr><td>4</td><td>0</td></tr>
+<tr><td>4</td><td>52<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>51<tr><td>9</td><td><tr><td>4</td><td><tr><td>1</td><td><tr><td>3</td><td>17<tr><td>4</td><td>0</td></tr>
+<tr><td>5</td><td>39<tr><td>5</td><td><tr><td>0</td><td>80<tr><td>0</td><td>39<tr><td>4</td><td><tr><td>5</td><td><tr><td>0</td><td><tr><td>0</td><td>17<tr><td>0</td><td>0</td></tr>
+<tr><td>6</td><td>69<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>69<tr><td>1</td><td><tr><td>6</td><td><tr><td>2</td><td><tr><td>2</td><td>17<tr><td>2</td><td>0</td></tr>
+<tr><td>7</td><td>60<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>0</td><td>60<tr><td>2</td><td><tr><td>0</td><td><tr><td>1</td><td><tr><td>3</td><td>16<tr><td>5</td><td>0</td></tr>
+<tr><td>8</td><td>52<tr><td>3</td><td><tr><td>0</td><td>80<tr><td>0</td><td>51<tr><td>4</td><td><tr><td>1</td><td><tr><td>0</td><td><tr><td>0</td><td>18<tr><td>2</td><td>0</td></tr>
+<tr><td>9</td><td>54<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>53<tr><td>9</td><td><tr><td>2</td><td><tr><td>0</td><td><tr><td>0</td><td>15<tr><td>1</td><td>0</td></tr>
+</table>
+<b>Predator (random) v Prey (random)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>34<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>33<tr><td>7</td><td><tr><td>0</td><td><tr><td>1</td><td><tr><td>2</td><td>15<tr><td>0</td><td>0</td></tr>
+<tr><td>1</td><td>34<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>34<tr><td>4</td><td><tr><td>1</td><td><tr><td>0</td><td><tr><td>0</td><td>18<tr><td>3</td><td>0</td></tr>
+<tr><td>2</td><td>35<tr><td>3</td><td><tr><td>0</td><td>80<tr><td>0</td><td>34<tr><td>8</td><td><tr><td>2</td><td><tr><td>0</td><td><tr><td>0</td><td>18<tr><td>1</td><td>0</td></tr>
+<tr><td>3</td><td>32<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>0</td><td>32<tr><td>2</td><td><tr><td>3</td><td><tr><td>0</td><td><tr><td>0</td><td>17<tr><td>2</td><td>0</td></tr>
+<tr><td>4</td><td>35<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>34<tr><td>5</td><td><tr><td>4</td><td><tr><td>0</td><td><tr><td>0</td><td>16<tr><td>2</td><td>0</td></tr>
+<tr><td>5</td><td>32<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>32<tr><td>0</td><td><tr><td>5</td><td><tr><td>0</td><td><tr><td>0</td><td>14<tr><td>4</td><td>0</td></tr>
+<tr><td>6</td><td>34<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>33<tr><td>9</td><td><tr><td>6</td><td><tr><td>1</td><td><tr><td>0</td><td>17<tr><td>6</td><td>0</td></tr>
+<tr><td>7</td><td>35<tr><td>4</td><td><tr><td>0</td><td>80<tr><td>0</td><td>34<tr><td>9</td><td><tr><td>7</td><td><tr><td>0</td><td><tr><td>0</td><td>18<tr><td>5</td><td>0</td></tr>
+<tr><td>8</td><td>33<tr><td>6</td><td><tr><td>0</td><td>80<tr><td>0</td><td>33<tr><td>1</td><td><tr><td>8</td><td><tr><td>0</td><td><tr><td>0</td><td>16<tr><td>5</td><td>0</td></tr>
+<tr><td>9</td><td>33<tr><td>5</td><td><tr><td>0</td><td>80<tr><td>0</td><td>33<tr><td>1</td><td><tr><td>9</td><td><tr><td>0</td><td><tr><td>0</td><td>17<tr><td>7</td><td>0</td></tr>
+</table>
 </details>
 
 ##### Predator (aggresive) v Prey (aggressive)
@@ -253,58 +264,62 @@ This is the purge mode, everyone is attacking everyone.  The prey seem to have t
 
 <details>
 <summary>data</summary>
-###### Predator (neural) v Prey (neural)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>4543</td><td>0</td><td>800</td><td>809</td><td>2</td><td>4199</td><td>0</td><td>298</td><td>1618
-1</td><td>5001</td><td>10</td><td>800</td><td>1055</td><td>16</td><td>4037</td><td>1</td><td>315</td><td>445
-2</td><td>3621</td><td>0</td><td>800</td><td>1289</td><td>17</td><td>2737</td><td>1</td><td>336</td><td>416
-3</td><td>913</td><td>0</td><td>800</td><td>486</td><td>18</td><td>865</td><td>2</td><td>172</td><td>169
-4</td><td>649</td><td>0</td><td>800</td><td>648</td><td>0</td><td>331</td><td>3</td><td>193</td><td>105
-5</td><td>717</td><td>0</td><td>800</td><td>716</td><td>1</td><td>517</td><td>4</td><td>260</td><td>102
-6</td><td>726</td><td>0</td><td>800</td><td>726</td><td>2</td><td>408</td><td>5</td><td>240</td><td>88
-7</td><td>729</td><td>0</td><td>800</td><td>729</td><td>3</td><td>345</td><td>7</td><td>254</td><td>81
-8</td><td>770</td><td>0</td><td>800</td><td>770</td><td>0</td><td>326</td><td>8</td><td>248</td><td>98
-9</td><td>702</td><td>0</td><td>800</td><td>702</td><td>1</td><td>470</td><td>10</td><td>227</td><td>104
-###### Predator (random) v Prey (neural)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>4448</td><td>0</td><td>800</td><td>560</td><td>11</td><td>4127</td><td>0</td><td>284</td><td>1102
-1</td><td>5000</td><td>48</td><td>800</td><td>912</td><td>32</td><td>3960</td><td>3</td><td>344</td><td>615
-2</td><td>5000</td><td>14</td><td>800</td><td>794</td><td>38</td><td>3801</td><td>6</td><td>324</td><td>562
-3</td><td>5000</td><td>17</td><td>800</td><td>822</td><td>56</td><td>4656</td><td>8</td><td>348</td><td>816
-4</td><td>5000</td><td>100</td><td>800</td><td>800</td><td>60</td><td>4757</td><td>1</td><td>322</td><td>665
-5</td><td>847</td><td>0</td><td>800</td><td>510</td><td>61</td><td>694</td><td>3</td><td>204</td><td>202
-6</td><td>1772</td><td>0</td><td>800</td><td>422</td><td>65</td><td>1428</td><td>4</td><td>197</td><td>202
-7</td><td>519</td><td>0</td><td>800</td><td>436</td><td>66</td><td>482</td><td>0</td><td>198</td><td>118
-8</td><td>681</td><td>0</td><td>800</td><td>427</td><td>67</td><td>594</td><td>1</td><td>209</td><td>90
-9</td><td>829</td><td>0</td><td>800</td><td>416</td><td>0</td><td>722</td><td>3</td><td>176</td><td>232
-###### Predator (neural) v Prey (random)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>5000</td><td>29</td><td>800</td><td>549</td><td>4</td><td>4977</td><td>0</td><td>203</td><td>1577
-1</td><td>720</td><td>0</td><td>800</td><td>480</td><td>5</td><td>669</td><td>1</td><td>193</td><td>188
-2</td><td>713</td><td>0</td><td>801</td><td>475</td><td>6</td><td>596</td><td>2</td><td>205</td><td>183
-3</td><td>847</td><td>0</td><td>801</td><td>430</td><td>7</td><td>653</td><td>4</td><td>200</td><td>149
-4</td><td>730</td><td>0</td><td>800</td><td>438</td><td>8</td><td>572</td><td>6</td><td>231</td><td>162
-5</td><td>661</td><td>0</td><td>800</td><td>448</td><td>9</td><td>470</td><td>7</td><td>221</td><td>137
-6</td><td>538</td><td>0</td><td>800</td><td>468</td><td>0</td><td>435</td><td>8</td><td>195</td><td>135
-7</td><td>780</td><td>0</td><td>800</td><td>465</td><td>2</td><td>704</td><td>0</td><td>235</td><td>183
-8</td><td>1837</td><td>0</td><td>802</td><td>436</td><td>3</td><td>1816</td><td>1</td><td>211</td><td>495
-9</td><td>866</td><td>0</td><td>800</td><td>406</td><td>4</td><td>591</td><td>3</td><td>233</td><td>181
-###### Predator (random) v Prey (random)
-Iteration</td><td>Lifetime</td><td>AlivePredators</td><td>AlivePrey</td><td>BestPredatorLifetime</td><td>BestPredatorGeneration</td><td>BestPreyLifetime</td><td>BestPreyGenertation</td><td>AvgPredatorLifetime</td><td>AvgPreyLifetime
-----------|----------|----------------|-----------|----------------------|------------------------|------------------|----------------------|---------------------|----------------
-0</td><td>1019</td><td>0</td><td>800</td><td>457</td><td>1</td><td>869</td><td>1</td><td>216</td><td>155
-1</td><td>2039</td><td>0</td><td>800</td><td>508</td><td>6</td><td>1895</td><td>2</td><td>222</td><td>395
-2</td><td>875</td><td>0</td><td>800</td><td>472</td><td>7</td><td>697</td><td>4</td><td>231</td><td>184
-3</td><td>1221</td><td>0</td><td>800</td><td>420</td><td>8</td><td>1114</td><td>5</td><td>214</td><td>252
-4</td><td>1680</td><td>0</td><td>800</td><td>526</td><td>12</td><td>1463</td><td>0</td><td>233</td><td>219
-5</td><td>930</td><td>0</td><td>800</td><td>401</td><td>0</td><td>870</td><td>0</td><td>221</td><td>166
-6</td><td>635</td><td>0</td><td>800</td><td>432</td><td>1</td><td>598</td><td>1</td><td>228</td><td>147
-7</td><td>1778</td><td>0</td><td>800</td><td>467</td><td>2</td><td>1558</td><td>3</td><td>220</td><td>363
-8</td><td>526</td><td>0</td><td>800</td><td>471</td><td>4</td><td>394</td><td>5</td><td>224</td><td>136
-9</td><td>1238</td><td>0</td><td>800</td><td>508</td><td>0</td><td>1046</td><td>6</td><td>245</td><td>233
+<b>Predator (neural) v Prey (neural)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>454<tr><td>3</td><td><tr><td>0</td><td>80<tr><td>0</td><td>80<tr><td>9</td><td><tr><td>2</td><td>419<tr><td>9</td><td><tr><td>0</td><td>29<tr><td>8</td><td>1618</td></tr>
+<tr><td>1</td><td>500<tr><td>1</td><td>1<tr><td>0</td><td>80<tr><td>0</td><td>105<tr><td>5</td><td>1<tr><td>6</td><td>403<tr><td>7</td><td><tr><td>1</td><td>31<tr><td>5</td><td>445</td></tr>
+<tr><td>2</td><td>362<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>128<tr><td>9</td><td>1<tr><td>7</td><td>273<tr><td>7</td><td><tr><td>1</td><td>33<tr><td>6</td><td>416</td></tr>
+<tr><td>3</td><td>91<tr><td>3</td><td><tr><td>0</td><td>80<tr><td>0</td><td>48<tr><td>6</td><td>1<tr><td>8</td><td>86<tr><td>5</td><td><tr><td>2</td><td>17<tr><td>2</td><td>169</td></tr>
+<tr><td>4</td><td>64<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>64<tr><td>8</td><td><tr><td>0</td><td>33<tr><td>1</td><td><tr><td>3</td><td>19<tr><td>3</td><td>105</td></tr>
+<tr><td>5</td><td>71<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>0</td><td>71<tr><td>6</td><td><tr><td>1</td><td>51<tr><td>7</td><td><tr><td>4</td><td>26<tr><td>0</td><td>102</td></tr>
+<tr><td>6</td><td>72<tr><td>6</td><td><tr><td>0</td><td>80<tr><td>0</td><td>72<tr><td>6</td><td><tr><td>2</td><td>40<tr><td>8</td><td><tr><td>5</td><td>24<tr><td>0</td><td>88</td></tr>
+<tr><td>7</td><td>72<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>72<tr><td>9</td><td><tr><td>3</td><td>34<tr><td>5</td><td><tr><td>7</td><td>25<tr><td>4</td><td>81</td></tr>
+<tr><td>8</td><td>77<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>77<tr><td>0</td><td><tr><td>0</td><td>32<tr><td>6</td><td><tr><td>8</td><td>24<tr><td>8</td><td>98</td></tr>
+<tr><td>9</td><td>70<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>70<tr><td>2</td><td><tr><td>1</td><td>47<tr><td>0</td><td>1<tr><td>0</td><td>22<tr><td>7</td><td>104</td></tr>
+</table>
+<b>Predator (random) v Prey (neural)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>444<tr><td>8</td><td><tr><td>0</td><td>80<tr><td>0</td><td>56<tr><td>0</td><td>1<tr><td>1</td><td>412<tr><td>7</td><td><tr><td>0</td><td>28<tr><td>4</td><td>1102</td></tr>
+<tr><td>1</td><td>500<tr><td>0</td><td>4<tr><td>8</td><td>80<tr><td>0</td><td>91<tr><td>2</td><td>3<tr><td>2</td><td>396<tr><td>0</td><td><tr><td>3</td><td>34<tr><td>4</td><td>615</td></tr>
+<tr><td>2</td><td>500<tr><td>0</td><td>1<tr><td>4</td><td>80<tr><td>0</td><td>79<tr><td>4</td><td>3<tr><td>8</td><td>380<tr><td>1</td><td><tr><td>6</td><td>32<tr><td>4</td><td>562</td></tr>
+<tr><td>3</td><td>500<tr><td>0</td><td>1<tr><td>7</td><td>80<tr><td>0</td><td>82<tr><td>2</td><td>5<tr><td>6</td><td>465<tr><td>6</td><td><tr><td>8</td><td>34<tr><td>8</td><td>816</td></tr>
+<tr><td>4</td><td>500<tr><td>0</td><td>10<tr><td>0</td><td>80<tr><td>0</td><td>80<tr><td>0</td><td>6<tr><td>0</td><td>475<tr><td>7</td><td><tr><td>1</td><td>32<tr><td>2</td><td>665</td></tr>
+<tr><td>5</td><td>84<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>0</td><td>51<tr><td>0</td><td>6<tr><td>1</td><td>69<tr><td>4</td><td><tr><td>3</td><td>20<tr><td>4</td><td>202</td></tr>
+<tr><td>6</td><td>177<tr><td>2</td><td><tr><td>0</td><td>80<tr><td>0</td><td>42<tr><td>2</td><td>6<tr><td>5</td><td>142<tr><td>8</td><td><tr><td>4</td><td>19<tr><td>7</td><td>202</td></tr>
+<tr><td>7</td><td>51<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>43<tr><td>6</td><td>6<tr><td>6</td><td>48<tr><td>2</td><td><tr><td>0</td><td>19<tr><td>8</td><td>118</td></tr>
+<tr><td>8</td><td>68<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>42<tr><td>7</td><td>6<tr><td>7</td><td>59<tr><td>4</td><td><tr><td>1</td><td>20<tr><td>9</td><td>90</td></tr>
+<tr><td>9</td><td>82<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>41<tr><td>6</td><td><tr><td>0</td><td>72<tr><td>2</td><td><tr><td>3</td><td>17<tr><td>6</td><td>232</td></tr>
+</table>
+<b>Predator (neural) v Prey (random)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>500<tr><td>0</td><td>2<tr><td>9</td><td>80<tr><td>0</td><td>54<tr><td>9</td><td><tr><td>4</td><td>497<tr><td>7</td><td><tr><td>0</td><td>20<tr><td>3</td><td>1577</td></tr>
+<tr><td>1</td><td>72<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>48<tr><td>0</td><td><tr><td>5</td><td>66<tr><td>9</td><td><tr><td>1</td><td>19<tr><td>3</td><td>188</td></tr>
+<tr><td>2</td><td>71<tr><td>3</td><td><tr><td>0</td><td>80<tr><td>1</td><td>47<tr><td>5</td><td><tr><td>6</td><td>59<tr><td>6</td><td><tr><td>2</td><td>20<tr><td>5</td><td>183</td></tr>
+<tr><td>3</td><td>84<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>1</td><td>43<tr><td>0</td><td><tr><td>7</td><td>65<tr><td>3</td><td><tr><td>4</td><td>20<tr><td>0</td><td>149</td></tr>
+<tr><td>4</td><td>73<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>43<tr><td>8</td><td><tr><td>8</td><td>57<tr><td>2</td><td><tr><td>6</td><td>23<tr><td>1</td><td>162</td></tr>
+<tr><td>5</td><td>66<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>44<tr><td>8</td><td><tr><td>9</td><td>47<tr><td>0</td><td><tr><td>7</td><td>22<tr><td>1</td><td>137</td></tr>
+<tr><td>6</td><td>53<tr><td>8</td><td><tr><td>0</td><td>80<tr><td>0</td><td>46<tr><td>8</td><td><tr><td>0</td><td>43<tr><td>5</td><td><tr><td>8</td><td>19<tr><td>5</td><td>135</td></tr>
+<tr><td>7</td><td>78<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>46<tr><td>5</td><td><tr><td>2</td><td>70<tr><td>4</td><td><tr><td>0</td><td>23<tr><td>5</td><td>183</td></tr>
+<tr><td>8</td><td>183<tr><td>7</td><td><tr><td>0</td><td>80<tr><td>2</td><td>43<tr><td>6</td><td><tr><td>3</td><td>181<tr><td>6</td><td><tr><td>1</td><td>21<tr><td>1</td><td>495</td></tr>
+<tr><td>9</td><td>86<tr><td>6</td><td><tr><td>0</td><td>80<tr><td>0</td><td>40<tr><td>6</td><td><tr><td>4</td><td>59<tr><td>1</td><td><tr><td>3</td><td>23<tr><td>3</td><td>181</td></tr>
+</table>
+<b>Predator (random) v Prey (random)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>101<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>45<tr><td>7</td><td><tr><td>1</td><td>86<tr><td>9</td><td><tr><td>1</td><td>21<tr><td>6</td><td>155</td></tr>
+<tr><td>1</td><td>203<tr><td>9</td><td><tr><td>0</td><td>80<tr><td>0</td><td>50<tr><td>8</td><td><tr><td>6</td><td>189<tr><td>5</td><td><tr><td>2</td><td>22<tr><td>2</td><td>395</td></tr>
+<tr><td>2</td><td>87<tr><td>5</td><td><tr><td>0</td><td>80<tr><td>0</td><td>47<tr><td>2</td><td><tr><td>7</td><td>69<tr><td>7</td><td><tr><td>4</td><td>23<tr><td>1</td><td>184</td></tr>
+<tr><td>3</td><td>122<tr><td>1</td><td><tr><td>0</td><td>80<tr><td>0</td><td>42<tr><td>0</td><td><tr><td>8</td><td>111<tr><td>4</td><td><tr><td>5</td><td>21<tr><td>4</td><td>252</td></tr>
+<tr><td>4</td><td>168<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>52<tr><td>6</td><td>1<tr><td>2</td><td>146<tr><td>3</td><td><tr><td>0</td><td>23<tr><td>3</td><td>219</td></tr>
+<tr><td>5</td><td>93<tr><td>0</td><td><tr><td>0</td><td>80<tr><td>0</td><td>40<tr><td>1</td><td><tr><td>0</td><td>87<tr><td>0</td><td><tr><td>0</td><td>22<tr><td>1</td><td>166</td></tr>
+<tr><td>6</td><td>63<tr><td>5</td><td><tr><td>0</td><td>80<tr><td>0</td><td>43<tr><td>2</td><td><tr><td>1</td><td>59<tr><td>8</td><td><tr><td>1</td><td>22<tr><td>8</td><td>147</td></tr>
+<tr><td>7</td><td>177<tr><td>8</td><td><tr><td>0</td><td>80<tr><td>0</td><td>46<tr><td>7</td><td><tr><td>2</td><td>155<tr><td>8</td><td><tr><td>3</td><td>22<tr><td>0</td><td>363</td></tr>
+<tr><td>8</td><td>52<tr><td>6</td><td><tr><td>0</td><td>80<tr><td>0</td><td>47<tr><td>1</td><td><tr><td>4</td><td>39<tr><td>4</td><td><tr><td>5</td><td>22<tr><td>4</td><td>136</td></tr>
+<tr><td>9</td><td>123<tr><td>8</td><td><tr><td>0</td><td>80<tr><td>0</td><td>50<tr><td>8</td><td><tr><td>0</td><td>104<tr><td>6</td><td><tr><td>6</td><td>24<tr><td>5</td><td>233</td></tr>
+</table>
 </details>
 
 
