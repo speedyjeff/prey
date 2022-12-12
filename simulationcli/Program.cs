@@ -60,7 +60,7 @@ namespace simulationcli
                 manager.World.KeyPress(Constants.Esc);
 
                 // show stats
-                Console.WriteLine($"{i}\t{manager.Lifetime}\t{manager.AlivePredators}\t{manager.AlivePrey}\t{manager.AncestorPredator.Lifetime}\t{manager.AncestorPredator.Generation}\t{manager.AncestorPrey.Lifetime}\t{manager.AncestorPrey.Generation}\t{manager.AveragePredatorLifetime}\t{manager.AveragePreyLifetime}");
+                Console.WriteLine($"{i}\t{manager.Lifetime}\t{manager.AlivePredators}\t{manager.AlivePrey}\t{(manager.AncestorPredator != null ? manager.AncestorPredator.Lifetime : 0)}\t{(manager.AncestorPredator != null ? manager.AncestorPredator.Generation : 0)}\t{(manager.AncestorPrey != null ? manager.AncestorPrey.Lifetime : 0)}\t{(manager.AncestorPrey != null ? manager.AncestorPrey.Generation : 0)}\t{manager.AveragePredatorLifetime}\t{manager.AveragePreyLifetime}");
 
                 // store the best models from this round
                 bestPredator = manager.AncestorPredator;

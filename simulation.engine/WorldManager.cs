@@ -40,8 +40,8 @@ namespace simulation.engine
                 Height = 16000,
 
                 // predators
-                MaxPredators = 3000,
                 InitialPredatorCount = 800,
+                MaxPredators = 3000,
 
                 // prey
                 InitialPreyCount = 4800,
