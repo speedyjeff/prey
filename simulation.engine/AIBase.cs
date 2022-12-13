@@ -104,6 +104,8 @@ namespace simulation.engine
             Generation = (parent != null) ? parent.Generation + 1 : 0;
             ShowViewPort = false;
 
+            // todo take in parameters to due the cost of each of the metrics
+
             // init
             PreviousEnergyCost = 0;
 

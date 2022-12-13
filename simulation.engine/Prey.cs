@@ -26,7 +26,7 @@ namespace simulation.engine
             DigestionCost = 0;
 
             // reproduction (shrinks)
-            ReproduceCost = -1 * ((ReproduceMax/150) + 1); // every 150 updates
+            ReproduceCost = -1 * ((ReproduceMax/300) + 1); // every 300 updates
 
             // attack (shrinks)
             AttackCost = -1 * ((AttackMax / 5)); // every 5 updates
@@ -56,12 +56,6 @@ namespace simulation.engine
             {
                 // apply damage
                 predator.Health += Damage;
-
-                // check if the predator dies
-                if (predator.Health <= 0)
-                {
-                    if (OnDeath != null) OnDeath(predator);
-                }
 
                 // reset
                 AttackMeter = AttackMax;

@@ -49,7 +49,7 @@ namespace simulation.engine
             // predators die when they run out of energy
             if (EnergyMeter <= 0)
             {
-                if (OnDeath != null) OnDeath(this);
+                Health = 0;
             }
 
             // digestion
@@ -72,9 +72,6 @@ namespace simulation.engine
                 {
                     // set health to 0
                     ai.Health = 0;
-
-                    // notify
-                    if (OnDeath != null) OnDeath(ai);
 
                     // add energy (equal to n rounds of digesting)
                     var digestionDuration = Math.Abs(DigestionMax / DigestionCost) * EnergyMultiplyWhenFull;
