@@ -3,7 +3,7 @@ Predator (blue) versus prey (yellow) simulator.  This is inspired by [AI Battles
 
 ![game2](https://github.com/speedyjeff/prey/blob/main/media/game2.gif)
 
-The AI are driven by a neural networks that choose the direction and speed of movement.  In the initial configuration the predators (blue) hunt and attack the prey (yellow).  A series of experiments were run to guage the fitness of these networks (compared with a random movement AI).  The results show that the average lifetime of a predator is ___ higher than moving randomly.
+The AI are driven by a neural networks that choose the direction and speed of movement.  In the initial configuration the predators (blue) hunt and attack the prey (yellow).  A series of experiments were run to guage the fitness of these networks (compared with a random movement AI).  The results show that the average lifetime of a predator is 40-70% longer than moving randomly.
 
 ### Basic Rules
 The basic rules for the simulatio are that predators must eat prey to survive, and prey try to survive as long as they can.
@@ -334,58 +334,111 @@ Configuration:
  * Prey (initial/max) - 4800/13000
  * Combat - variable (peaceful or aggressive)
  * Random - variable
- * Iterations - 10
+ * Iterations - 5
  * Max Lifetime - 10,000
 
 ```
 ./simulationcli -width 16000 -height 16000 -initialpred 800 -initialprey 4800 -maxpred 800 -maxprey 13000 -combat $0 -random $1 -it 10 -maxl 10000 
 ```
+##### Predator (aggressive) v Prey (peaceful)
+This larger configuration provides more space, more predators, and more prey.  Predator lifetime saw a 75% increase when using the predator (neural) over predator (random).  The average lifetime of predator (neural) was 1183 updates, where as predator (random) was 674 updates. In addition, prey (neural) lifetime was 55% longer than prey (random).
 
-
-
-
-
-
-##### Predator (peaceful) v Prey (peaceful)
 <details>
 <summary>data</summary>
-###### Predator (neural) v Prey (neural)
-###### Predator (random) v Prey (neural)
-###### Predator (neural) v Prey (random)
-###### Predator (random) v Prey (random)
+<b>Predator (neural) v Prey (neural)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>10000</td><td>800</td><td>11922</td><td>8127</td><td>1</td><td>5746</td><td>0</td><td>854</td><td>323</td></tr>
+<tr><td>1</td><td>10000</td><td>800</td><td>12997</td><td>9898</td><td>2</td><td>9345</td><td>2</td><td>1187</td><td>531</td></tr>
+<tr><td>2</td><td>10000</td><td>800</td><td>12997</td><td>8956</td><td>3</td><td>9664</td><td>3</td><td>1188</td><td>479</td></tr>
+<tr><td>3</td><td>10000</td><td>800</td><td>12998</td><td>8881</td><td>4</td><td>9939</td><td>4</td><td>1283</td><td>644</td></tr>
+<tr><td>4</td><td>10000</td><td>800</td><td>13000</td><td>9705</td><td>5</td><td>9810</td><td>6</td><td>1405</td><td>612</td></tr>
+</table>
+<b>Predator (random) v Prey (random)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>10000</td><td>800</td><td>12999</td><td>6414</td><td>5</td><td>5428</td><td>11</td><td>719</td><td>327</td></tr>
+<tr><td>1</td><td>10000</td><td>800</td><td>13000</td><td>3948</td><td>18</td><td>4688</td><td>21</td><td>667</td><td>341</td></tr>
+<tr><td>2</td><td>10000</td><td>800</td><td>12997</td><td>5638</td><td>29</td><td>5740</td><td>32</td><td>656</td><td>335</td></tr>
+<tr><td>3</td><td>10000</td><td>800</td><td>13000</td><td>3966</td><td>42</td><td>5280</td><td>37</td><td>652</td><td>328</td></tr>
+<tr><td>4</td><td>10000</td><td>798</td><td>12991</td><td>4204</td><td>55</td><td>5053</td><td>45</td><td>680</td><td>333</td></tr>
+</table>
 </details>
+
+##### Predator (aggresive) v Prey (aggressive)
+This configuration continues to be a struggle for predators, as prey are aggressive and attack back.  Predator (neural) and predator (random) were within 8%, with random trending better.  Prey (neural) average lifetime was nearly 4x higher than prey (random).
+
+<details>
+<summary>data</summary>
+<b>Predator (neural) v Prey (neural)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>8609</td><td>0</td><td>13000</td><td>712</td><td>0</td><td>7977</td><td>1</td><td>199</td><td>1327</td></tr>
+<tr><td>1</td><td>428</td><td>0</td><td>13000</td><td>428</td><td>1</td><td>333</td><td>2</td><td>103</td><td>77</td></tr>
+<tr><td>2</td><td>405</td><td>0</td><td>13000</td><td>388</td><td>2</td><td>372</td><td>0</td><td>100</td><td>77</td></tr>
+<tr><td>3</td><td>10000</td><td>104</td><td>13000</td><td>786</td><td>3</td><td>9994</td><td>1</td><td>208</td><td>2408</td></tr>
+<tr><td>4</td><td>733</td><td>0</td><td>13000</td><td>706</td><td>4</td><td>720</td><td>0</td><td>135</td><td>83</td></tr>
+</table>
+<b>Predator (random) v Prey (random)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>1084</td><td>0</td><td>13000</td><td>522</td><td>0</td><td>954</td><td>0</td><td>162</td><td>145</td></tr>
+<tr><td>1</td><td>1335</td><td>0</td><td>13000</td><td>554</td><td>1</td><td>1320</td><td>1</td><td>161</td><td>172</td></tr>
+<tr><td>2</td><td>4201</td><td>0</td><td>13000</td><td>470</td><td>3</td><td>4161</td><td>2</td><td>158</td><td>391</td></tr>
+<tr><td>3</td><td>996</td><td>0</td><td>12999</td><td>592</td><td>4</td><td>945</td><td>3</td><td>162</td><td>153</td></tr>
+<tr><td>4</td><td>869</td><td>0</td><td>13000</td><td>575</td><td>5</td><td>789</td><td>4</td><td>162</td><td>139</td></tr>
+</table>
+</details>
+
+
+#### Long running
+This experiment was to see if over the long term who wins: predators or prey.  When predator (neural) and prey (nerual) are active, it was a toss up with prey winning more often.  When predator (random) and prey (random) are active, the predators win.  If you visualize the difference between predator (neural) and predator (random), predator (random) holds even distribution across the board (eg. playing zone defense).  Whereas predator (neural) sweeps the prey away and follows the respan around the board.  The later approach can cause mass extinction if there are no predators in the zone where prey are spawning.
+
+Configuration:
+ * Width - 6,400
+ * Height - 6,400
+ * Predator (initial/max) - 50/170
+ * Prey (initial/max) - 300/800
+ * Combat - Predator
+ * Random - variable
+ * Iterations - 5
+ * Max Lifetime - 100,000
+
+```
+simulationcli.exe -width 6400 -height 6400 -initialpred 50 -initialprey 300 -maxpred 170 -maxprey 800 -combat 1 -random 0 -it 5 -maxl 100000 
+```
 
 ##### Predator (aggressive) v Prey (peaceful)
 <details>
 <summary>data</summary>
-###### Predator (neural) v Prey (neural)
-###### Predator (random) v Prey (neural)
-###### Predator (neural) v Prey (random)
-###### Predator (random) v Prey (random)
+<b>Predator (neural) v Prey (neural)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>52413</td><td>167</td><td>0</td><td>2084</td><td>9</td><td>5415</td><td>41</td><td>466</td><td>321</td></tr>
+<tr><td>1</td><td>40462</td><td>0</td><td>800</td><td>3771</td><td>53</td><td>16975</td><td>45</td><td>782</td><td>1062</td></tr>
+<tr><td>2</td><td>3214</td><td>0</td><td>800</td><td>1484</td><td>55</td><td>2572</td><td>46</td><td>790</td><td>616</td></tr>
+<tr><td>3</td><td>26737</td><td>156</td><td>0</td><td>2528</td><td>68</td><td>8711</td><td>47</td><td>486</td><td>461</td></tr>
+<tr><td>4</td><td>5480</td><td>0</td><td>800</td><td>1609</td><td>73</td><td>4887</td><td>48</td><td>841</td><td>1169</td></tr>
+</table>
+<b>Predator (random) v Prey (random)</b>
+<table>
+<tr><th>Iteration</th><th>Lifetime</th><th>AlivePredators</th><th>AlivePrey</th><th>BestPredatorLifetime</th><th>BestPredatorGeneration</th><th>BestPreyLifetime</th><th>BestPreyGenertation</th><th>AvgPredatorLifetime</th><th>AvgPreyLifetime</th></tr>
+<tr><td>0</td><td>52271</td><td>168</td><td>0</td><td>2134</td><td>158</td><td>4265</td><td>57</td><td>475</td><td>315</td></tr>
+<tr><td>1</td><td>43907</td><td>163</td><td>0</td><td>2287</td><td>283</td><td>4086</td><td>69</td><td>480</td><td>317</td></tr>
+<tr><td>2</td><td>26823</td><td>165</td><td>0</td><td>2236</td><td>304</td><td>3870</td><td>84</td><td>470</td><td>311</td></tr>
+<tr><td>3</td><td>31292</td><td>169</td><td>0</td><td>1787</td><td>323</td><td>4139</td><td>148</td><td>473</td><td>322</td></tr>
+<tr><td>4</td><td>21914</td><td>166</td><td>0</td><td>1961</td><td>364</td><td>4727</td><td>161</td><td>483</td><td>308</td></tr>
+</table>
 </details>
-
-##### Predator (peaceful) v Prey (aggressive)
-<details>
-<summary>data</summary>
-###### Predator (neural) v Prey (neural)
-###### Predator (random) v Prey (neural)
-###### Predator (neural) v Prey (random)
-###### Predator (random) v Prey (random)
-</details>
-
-##### Predator (aggresive) v Prey (aggressive)
-<details>
-<summary>data</summary>
-###### Predator (neural) v Prey (neural)
-###### Predator (random) v Prey (neural)
-###### Predator (neural) v Prey (random)
-###### Predator (random) v Prey (random)
-</details>
-
 
 
 ### Next steps
-There is a lot more tuning possible in this experiment.  A few areas of focus would be to nerf prey attacks (as they currently are like a hord of unstoppable zobmies and overwhelm the predators), and further tuning of AI meters.
+There is a lot more tuning possible in this experiment.  
+A few areas of focus:
+ * nerf prey attacks (as they currently are like a hord of unstoppable zobmies and overwhelm the predators)
+ * further tuning of AI meters
+ * allow for longer sight by predators
+ * perform a tuning experiment to find the cross over points of where predators dominate, prey dominate, and a balance 
 
 ### Trying
 This project is build able with Visual Studio 2022 or later.  Below are the steps to reproduce these experiments.
