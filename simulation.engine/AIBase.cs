@@ -311,18 +311,42 @@ namespace simulation.engine
             return ViewportResultCache;
         }
 
+        public void Evolve(float pcntEnergyCost, float pcntDigestCost, float pcntReproduceCost, float pcntAttackCost)
+        {
+            // evolve each of the costs per the percentages
+            if (pcntEnergyCost >= 0 && pcntEnergyCost < MaxPcntEvolution)
+            {
+                EnergyCost = (int)Math.Floor(EnergyCost * pcntEnergyCost);
+            }
+            if (pcntDigestCost >= 0 && pcntDigestCost < MaxPcntEvolution)
+            {
+                DigestionCost = (int)Math.Floor(DigestionCost * pcntDigestCost);
+            }
+            if (pcntReproduceCost >= 0 && pcntReproduceCost < MaxPcntEvolution)
+            {
+                ReproduceCost = (int)Math.Floor(ReproduceCost * pcntReproduceCost);
+            }
+            if (pcntAttackCost >= 0 && pcntAttackCost < MaxPcntEvolution)
+            {
+                AttackCost = (int)Math.Floor(AttackCost * pcntAttackCost);
+            }
+        }
+
         #region private
         private float[] ViewportResultCache;
         private static RandomNumberGenerator Random;
+
+        private const float MaxPcntEvolution = 2f;
 
         static AIBase()
         {
             Random = RandomNumberGenerator.Create();
         }
 
-        private static int GetRandom()
+        private unsafe static int GetRandom()
         {
-            var int32buffer = new byte[4];
+            var array = stackalloc byte[4];
+            var int32buffer = new Span<byte>(array, 4);
             Random.GetNonZeroBytes(int32buffer);
             // ensure positive
             int32buffer[3] &= 0x7f;
@@ -354,6 +378,12 @@ namespace simulation.engine
                 // inherit the network from the parent
                 NetworkAngle = NeuralNetwork.Load(parent.NetworkAngle);
                 NetworkSpeed = NeuralNetwork.Load(parent.NetworkSpeed);
+
+                // inherit costs from parent
+                EnergyCost = parent.EnergyCost;
+                DigestionCost = parent.DigestionCost;
+                AttackCost = parent.AttackCost;
+                ReproduceCost = parent.ReproduceCost;
             }
             else
             {

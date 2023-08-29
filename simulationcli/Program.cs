@@ -32,6 +32,8 @@ namespace simulationcli
                 EnableFastPlayerUpdate = true // required
             };
 
+            // todo add evolution mode
+
             // todo load models
 
             // run iterations
